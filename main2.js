@@ -1,6 +1,8 @@
+/* jshint -W083 */
+
 var $scope = {};
 (function () {
-    var bindClasses = ["name"];
+    var bindClasses = ["name", "color"];
     var attachEvent = function (classNames) {
         classNames.forEach(function (className) {
             var elements = document.getElementsByClassName(className);
